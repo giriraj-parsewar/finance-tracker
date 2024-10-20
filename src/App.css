@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.auth-container, .form-container, .transactions-container, .home-container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin: 10px 0;
+}
+
+.auth-form, .transaction-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input, .transaction-form input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-form button, .transaction-form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-form button:hover, .transaction-form button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transactions-table th, .transactions-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transactions-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.home-links {
+  display: flex;
+  gap: 15px;
+}
+
+.home-link {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-link:hover {
+  background-color: #45a049;
+}
