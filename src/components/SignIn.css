@@ -1,4 +1,78 @@
-/* src/components/SignIn.css */
+/* General styling for the sign-in container */
+.signin-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styling for the input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for the sign-in button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+/* Styling for the Google Sign-In button */
+.google-signin-button {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  background-color: #4285F4; /* Google Blue */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Google Sign-In button */
+.google-signin-button:hover {
+  background-color: #357ae8;
+}
+
+/* Styling for error messages */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Style the container to center content */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* src/components/SignIn.css
 .signin-container {
     max-width: 400px;
     margin: auto;
@@ -35,4 +109,4 @@
     color: red;
     margin-top: 10px;
   }
-  
+   */
